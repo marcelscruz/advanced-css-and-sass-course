@@ -1,0 +1,22 @@
+{
+  "name": "advanced-css-and-sass",
+  "version": "1.0.0",
+  "description": "An advanced CSS and Sass course",
+  "main": "index.html",
+  "author": "Marcel Cruz",
+  "license": "ISC",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcelscruz/advanced-css-and-sass-course.git"
+  },
+  "bugs": {
+    "url": "https://github.com/marcelscruz/advanced-css-and-sass-course/issues"
+  },
+  "homepage": "https://github.com/marcelscruz/advanced-css-and-sass-course#readme",
+  "devDependencies": {
+    "node-sass": "^4.9.3"
+  }
+}
